@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandeur Wrld</title>
+
+    <!-- ============LINKS============= -->
+    <link rel="stylesheet" href="ASSETS/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ============THE NAVIGATION BAR============= -->
+
+<!-- ==  DESKTOP VERSION STRUCTURE - == -->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#"><span>John</span>  Moore</a>
+            </div>
+ 
+            <ul class="nav-links">
+                <li>
+                    <a href="#Home">Home</a>
+                </li>
+                <li>
+                    <a href="#services__section">Services</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#Pages">Pages</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <div class="three-d-box">
+                <button class="nav-btn">
+                    <i class="fa fa-download"></i>Download CV
+                </button>
+            </div>
+            
+            <div onclick="openDropdown()" class="toggle-btn bounce_animation">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+
+
+
+                <!-- ==  MOBILE VERSION STRUCTURE- == -->
+
+        <div class="dropdown-menu">
+            <li>
+                <a onclick="removeDropdown()" href="#Home">Home</a>
+            </li>
+            <li>
+                <a onclick="removeDropdown()" href="#services__section">Services</a>
+            </li>
+            <li>
+                <a onclick="removeDropdown()" href="#projects">Projects</a>
+            </li>
+            <li>
+                <a onclick="removeDropdown()" href="#Pages">Pages</a>
+            </li>
+            <li>
+                <a onclick="removeDropdown()" href="#contact">Contact</a>
+            </li>
+
+            <li>
+                <div class="three-d-box">
+                    <button class="nav-btn">
+                        <i class="fa fa-download"></i>
+
+                        Download CV
+                    </button>
+                </div>
+            </li>
+        </div>
+    </nav> 
+<!-- ============END OF THE NAVIGATION BAR============= -->
+
+
+
+<!-- /// -->
+
+
+
+<!-- ============ BANNER SECTION START============= -->
+    <section class="banner__section banner__transition" id="Home">
+
+        <div class="banner__wrapper">
+            <div class="banner__text">
+                <div class="banner__head__text">
+                    <h1 class="">👋Hey there</h1>
+                    <h1 class="">I'm John Moore</h1>
+                    <!-- <h1 class="">a <span>Designer</span></h1> -->
+                </div>
+                <div class="bannner__body__text">
+                    <article class="">
+                        Welcome to my creative corner! I'm a passionate UI/UX designer, Mobile App designer and Web designer with three years of experience crafting digital experiences that are both visually stunning and user-friendly.
+                    </article>
+                </div>
+                <div class="banner__text__btn">
+                    <button class="banner__text__btn1">Contact me </button>
+                    <button class="banner__text__btn2">Browse Portfolio</button>
+                </div>
+            </div>
+            <div class="banner__picture">
+                <div class="banner__picture__wrapper">
+                    <img class="" src="ASSETS/MAIN__IMAGES/PERSON.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+<!-- ============ INFINITE SCROLL ANIMATION============= -->
+    <section class="infinite__scroll__animation">
+        <div class="infinite__scroll__wrapper"></div>
+    </section>
+
+    
+<!-- ============ SERVICES SECTION START============= -->
+    <section class="services__section" id="services__section">
+        <div class="services__section__wrapper">
+            <div class="services__intro__text">
+                <div class="services__intro__text__wrapper">
+                    <h1> <span>My</span> Services</h1>
+                </div>
+                <div class="services__intro__text__btn">
+                    <div class="arrow__btn">
+                        <div class="arrow__axiz__wrapper">
+                            <div class="arrow__axiz">
+                                <span>O</span>
+                            </div>
+                        </div>
+                        <div class="button__axiz"  onclick="location.href=`#`">View all services</div>
+                    </div>
+                </div>
+            </div>
+            <div class="services__card__wrapper">
+                <div class="move_in services__card">
+                    <div class="services__card__img">
+                        <div class="services__card__img__wrapper">
+                            <img src="ASSETS/MAIN__IMAGES//draw.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card__text__content">
+                        <div class="card__head__text">
+                            <h1>WEB DESIGN</h1>
+                        </div>
+                        <div class="card__body__text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint no
+                            </p>
+                        </div>
+                        <div class="card__btn">
+                           <a href="#">Learn more <span>O</span> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="move_in services__card">
+                    <div class="services__card__img">
+                        <div class="services__card__img__wrapper">
+                            <img src="ASSETS/MAIN__IMAGES/webdesign.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card__text__content">
+                        <div class="card__head__text">
+                            <h1>UI/UX DESIGN</h1>
+                        </div>
+                        <div class="card__body__text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint no
+                            </p>
+                        </div>
+                        <div class="card__btn">
+                           <a href="#">Learn more <span>O</span> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="move_in services__card">
+                    <div class="services__card__img">
+                        <div class="services__card__img__wrapper">
+                            <img src="ASSETS/MAIN__IMAGES/javascript.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card__text__content">
+                        <div class="card__head__text">
+                            <h1>App Design</h1>
+                        </div>
+                        <div class="card__body__text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint no
+                            </p>
+                        </div>
+                        <div class="card__btn">
+                           <a href="#">Learn more <span>O</span> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+            
+
+        
+        </div>
+        
+    </section>
+
+<!-- ============ PROJECT SECTION START============= -->
+    <section class="projects__section" id="projects">
+        <div class="projects__session__wrapper">
+            <div class="projects__intro__text">
+                <div class="projects__intro__text__wrapper">
+                    <p>Browse through</p>
+                    <h1> <span>My</span> Projects</h1>
+                </div>
+            </div>
+            <div class="projects__card__wrapper">
+
+                <div class="projects__cards" id="One">
+                    <div class="projects__cards__img">
+                        <div class="projects__cards__img__wraper">
+                            <img src="ASSETS/MAIN__IMAGES/Nm0oBCM-black-panther-wallpapers.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="projects__cards__text">
+                        <span>Project One</span>
+                    </div>  
+                    <div class="projects__cards__btn">
+                        <button onclick="location.href=`#Two`">Github</button>
+                        <button onclick="location.href=`#projects`">Live Demo<span>T</span></button>
+                    </div>
+                </div>
+
+                <div class="projects__cards" id="Two">
+                    <div class="projects__cards__img">
+                        <div class="projects__cards__img__wraper">
+                            <img src="ASSETS/MAIN__IMAGES/Nm0oBCM-black-panther-wallpapers.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="projects__cards__text">
+                        <span>Project Two</span>
+                    </div>
+                    <div class="projects__cards__btn">
+                        <button onclick="location.href=`#projects`">Github</button>
+                        <button onclick="location.href=`#projects`">Live Demo<span>T</span></button>
+                    </div>
+                </div>
+
+                <div class="projects__cards" id="Three">
+                    <div class="projects__cards__img">
+                        <div class="projects__cards__img__wraper">
+                            <img src="ASSETS/MAIN__IMAGES/Nm0oBCM-black-panther-wallpapers.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="projects__cards__text">
+                        <span>Project Three</span>
+                    </div>
+                    <div class="projects__cards__btn">
+                        <button onclick="location.href=`#projects`">Github</button>
+                        <button onclick="location.href=`#projects`">Live Demo<span>T</span></button>
+                    </div>
+                </div>
+
+                <div class="projects__cards" id="Four">
+                    <div class="projects__cards__img">
+                        <div class="projects__cards__img__wraper">
+                            <img src="ASSETS/MAIN__IMAGES/Nm0oBCM-black-panther-wallpapers.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="projects__cards__text">
+                        <span>Project Four</span>
+                    </div>
+                    <div class="projects__cards__btn">
+                        <button onclick="location.href=`#projects`">Github</button>
+                        <button onclick="location.href=`#projects`">Live Demo<span>T</span></button>
+                    </div>
+                </div>
+
+                <div class="projects__cards" id="Five">
+                    <div class="projects__cards__img">
+                        <div class="projects__cards__img__wraper">
+                            <img src="ASSETS/MAIN__IMAGES/Nm0oBCM-black-panther-wallpapers.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="projects__cards__text">
+                        <span>Project Five</span>
+                    </div>
+                    <div class="projects__cards__btn">
+                        <button onclick="location.href=`#projects`">Github</button>
+                        <button onclick="location.href=`#projects`">Live Demo<span>T</span></button>
+                    </div>
+                </div>
+
+                <div class="projects__cards" id="Six">
+                    <div class="projects__cards__img">
+                        <div class="projects__cards__img__wraper">
+                            <img src="ASSETS/MAIN__IMAGES/Nm0oBCM-black-panther-wallpapers.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="projects__cards__text">
+                        <span>Project Six</span>
+                    </div>
+                    <div class="projects__cards__btn">
+                        <button onclick="location.href=`#projects`">Github</button>
+                        <button onclick="location.href=`#projects`">Live Demo<span>T</span></button>
+                    </div>
+                </div>
+zz
+            </div>
+
+            <div class="project__card__links">
+                <div onclick="location.href=`#Two`" class="link__one">X</div>
+                <div onclick="location.href=`#Three`" class="link__two">X</div>
+            </div>
+        </div>
+    </section>
+  
+
+
+<!-- ============ CONTACT SECTION START============= -->
+    <section class="contact__section" id="contact">
+       <div class="contact__section__wrapper">
+            <div class="contact__intro__text">
+                <div class="contact__intro__text__wrapper">
+                    <h1> <span>Contact</span> Me</h1>
+                </div>
+            </div>
+
+            <div class="contact__section__main">
+                <div class="form__axiz">
+                    <div class="form__wrapper">
+                        <div class="">
+                            <span>Get In Touch</span>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore</p>
+                        </div>
+                        <div>
+                            <form action="" method="post">
+                                <input type="email" placeholder="Your E-mail"  required>
+                                <input type="number" placeholder="Phone number"  required>
+                                <textarea placeholder="Your message here" name="" id=""></textarea>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="map__axiz"></div>
+            </div>
+
+            <div class="contact__address">
+                <div class="">
+                    <div class="contact__SVGs">
+                        <img class="" src="ASSETS/SVG - LINKS/noun_Email_254038.svg" alt="">
+                    </div>
+                    <div class="">
+                        <span>Email:</span><span>info@yourdomain.com</span>
+                        <br><span>info@samplemail.com</span>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="contact__SVGs">
+                        <img class="" src="ASSETS/SVG - LINKS/noun_Phone_17950751.svg" alt="">
+                    </div>
+                    <div class="">
+                        <span>Phone:</span><span>+99(0) 101 0000 88</span>
+                        <br><span>+99(0) 101 0000 88</span>
+                    </div>
+                </div>
+                <div class=""> 
+                    <div class="contact__SVGs">
+                        <img class="" src="ASSETS/SVG - LINKS/noun_Location_19355641.svg" alt="">
+                    </div>
+                    <div class="">
+                        <span>Email:</span><span>info@yourdomain.com</span>
+                        <br><span>info@samplemail.com</span>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section>
+
+
+
+
+<!-- ============JAVASCRIPT LINKS============= -->
+<script src="script.js"></script>
+<script src="keyframes_flashInUp.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
