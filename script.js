@@ -28,4 +28,7 @@ function removeDropdown(){
   toggleBtnAnimation.classList.remove('bounce__animation')
 }
 
-const linkOne = document.querySelector(``)
+
+
+
+
