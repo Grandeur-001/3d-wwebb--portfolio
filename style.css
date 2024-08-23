@@ -1009,13 +1009,43 @@ a{
 .projects__cards__img__wraper img{
      max-width: 100%;
     object-fit: contain;
-    transition: all 1s cubic-bezier(0, 0.1, 0.22, 2.5);
+    transition: all 0.6s cubic-bezier(0, 0.84, 0, 1);
 }
-.projects__cards:hover .projects__cards__img__wraper img{
+
+
+.projects__cards:nth-of-type(1):hover .projects__cards__img__wraper img{
+    scale: 1.40;
+    transform: rotateY(-30deg);
+    
+}
+.projects__cards:nth-of-type(2):hover .projects__cards__img__wraper img{
+    scale: 1.40;
     transform: rotateY(30deg);
-    animation: bounce  infinite;
-    transition: all 0.5s cubic-bezier(0, 0, 0, 0.5);
+    
+    
 }
+.projects__cards:nth-of-type(3):hover .projects__cards__img__wraper img{
+    scale: 1.40;
+    transform: rotateY(-30deg);
+    
+}
+.projects__cards:nth-of-type(4):hover .projects__cards__img__wraper img{
+    scale: 1.40;
+    transform: rotateY(30deg);
+    
+}
+.projects__cards:nth-of-type(5):hover .projects__cards__img__wraper img{
+    scale: 1.40;
+    transform: rotateY(-30deg);
+    
+    
+}
+.projects__cards:nth-of-type(6):hover .projects__cards__img__wraper img{
+    scale: 1.40;
+    transform: rotateY(30deg);
+    
+}
+
 
 .projects__cards .projects__cards__text{
     margin-block: 20px;
